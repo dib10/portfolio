@@ -398,14 +398,10 @@ footer {
 .gradient {
   text-align: center;
   font-size: 2rem;
-  background: linear-gradient(
-    -35deg,
-    var(--text-color-1) 0%,
-    var(--text-color-2) 100%
-  );
+  color: rgba(0, 179, 119, 1);
+  
   background-size: 300%;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   animation: animated_text 10s ease-in-out infinite;
 }
 
